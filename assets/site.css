@@ -1,0 +1,26 @@
+/* Fonts are served from this site, so visitors' browsers never contact a font service (see privacy.html). */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/montserrat-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("/assets/fonts/source-sans-3-latin-wght-normal.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #FAFAF7; }
+a { color: #14213D; }
+a:hover { color: #9A6400; }
+a:focus-visible { outline: 3px solid #F2A900; outline-offset: 3px; border-radius: 4px; }
+section[id] { scroll-margin-top: 16px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
